@@ -2,7 +2,7 @@ import React from "react";
 import { assets } from "../../assets/assets";
 import { NavLink } from "react-router-dom";
 
-const SIdebar = () => {
+const Sidebar = () => {
   const sidebarLinks = [
     { name: "Dashboard", path: "/owner", icon: assets.dashboardIcon },
     { name: "Add Room", path: "/owner/add-room", icon: assets.addIcon },
@@ -32,4 +32,4 @@ const SIdebar = () => {
   );
 };
 
-export default SIdebar;
+export default Sidebar;
